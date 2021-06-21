@@ -1,23 +1,15 @@
-import logo from './logo.svg';
-import './App.css';
+import "./App.scss"
+import React,{useEffect,useState} from "react";
+import BimForm from "./components/bimForm/Bim_form"
+import DialIndicator from "./components/dial_indicator/Dial_indicator"
 
 function App() {
+
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <BimForm/>
+      <DialIndicator/>
+
     </div>
   );
 }

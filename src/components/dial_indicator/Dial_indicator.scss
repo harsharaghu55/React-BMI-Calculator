@@ -1,0 +1,25 @@
+.circle{
+    height:150px;
+    width:300px;
+    border:2px black solid;
+    border-top-left-radius: 150px;
+    border-top-right-radius: 150px;
+    
+    background-image:conic-gradient(
+        pink 70deg,
+        orange 0 180deg,
+        lightblue 0,
+        
+    );
+    .dil{
+        height:5px;
+        width:150px;
+        position:relative;
+        bottom: -99%;
+        right:0%;
+        background-color: black;
+        transition: transform 1s linear;
+        transform-origin:bottom right;            
+    }
+    
+}
