@@ -1,6 +1,30 @@
-.inputFiledsContainer{
-    display:flex;
-    justify-content:space-around;
-    align-items:center;
-    width:100em
+.BimForm{
+        display:flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items:center;
+        position: fixed;
+        height: 100em;
+        width:100em;
+    .inputFiledsContainer{
+        display:flex;
+        justify-content: center;
+        align-items:center;
+        width:100em;
+        #weight{
+            margin: 1em 12em 1em 0em;
+            width: 15em;
+            height: 2em;
+        }
+        #height{
+            margin: 1em 0em 1em 12em;
+            width: 15em;
+            height: 2em;
+        }
+    }
+    #bmi-btn{
+        background: red;
+        padding:0.5em;
+        border-radius: 0.8em;
+    }
 }
